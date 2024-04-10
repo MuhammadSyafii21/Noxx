@@ -22,6 +22,7 @@ btnLeft.addEventListener('click',
 function(){
   arrayNum[0] = 0;
   num.innerHTML = arrayNum[0];
+  audio.pause();
   
 })
 
